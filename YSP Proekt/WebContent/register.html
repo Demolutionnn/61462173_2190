@@ -1,0 +1,151 @@
+<!DOCTYPE>
+<html>
+    <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link rel="stylesheet" href="resources/css/styles.css">
+          <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png"/>
+         <meta charset="utf-8">
+          <script src="resources/script/jquery-3.2.1.min"></script>
+          <script src="resources/script/bootstrap.min.js"></script>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="background-color: #222;">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+             <header>
+                  <div id="socialMedia">
+                        <ul class="list-inline">
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Find us on Facebook" ><img src="resources/images/fb_icon.png"  class="img-responsive" alt=""></a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Find us on Google+" ><img src="resources/images/gp_icon.png"  class="img-responsive" alt=""></a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us in Twitter" ><img src="resources/images/twitter_icon.png"  class="img-responsive" alt=""></a></li>
+                        </ul>
+                  </div>    
+                  <a href="home.html">   <img src="resources/images/logo_mobile.png" class="img-responsive" alt=""> </a>   
+            </header>
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+         <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div> 
+        </div>
+        </nav>
+
+        <!--Page content -->
+        <div class="container">
+                    <form action = "Register" class="form-horizontal"  id="registerForm" method="POST">
+                                <fieldset>
+                                    <div id="legend">
+                                    <legend class="" style="color: gray;">Register</legend>
+                                    </div>
+                                    <div class="control-group">
+                                    <!-- Username -->
+                                    <label class="control-label"  for="username">Username</label>
+                                    <div class="controls">
+                                        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                                        <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+                                    </div>
+                                    </div>
+                                
+                                    <div class="control-group">
+                                    <!-- E-mail -->
+                                    <label class="control-label" for="email">E-mail</label>
+                                    <div class="controls">
+                                        <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+                                        <p class="help-block">Please provide your E-mail</p>
+                                    </div>
+                                    </div>
+                                    <!--Phone number -->   
+                                    <div class="control-group">
+                                    <label class="control-label" for="phone">Phone</label>
+                                    <div class="controls">
+                                        <input type="text" id="phone" name="phone" placeholder="" class="input-xlarge">
+                                        <p class="help-block">Please provide your phone number</p>
+                                    </div>
+                                    </div>
+
+
+
+                                    <div class="control-group">
+                                    <!-- Password-->
+                                    <label class="control-label" for="password">Password</label>
+                                    <div class="controls">
+                                        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                                        <p class="help-block">Password should be at least 4 characters</p>
+                                    </div>
+                                    </div>
+                                
+                                    <div class="control-group">
+                                    <!-- Password -->
+                                    <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+                                    <div class="controls">
+                                        <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+                                        <p class="help-block">Please confirm password</p>
+                                    </div>
+                                    </div>
+                                
+                                    <div class="control-group">
+                                    <!-- Button -->
+                                    <div class="controls">
+                                        <button type = "submit" class="btn btn-success">Register</button>
+                                    </div>
+                                    </div>
+                                </fieldset>
+                    </form>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                 <div class="row">
+                    <center><h3>About Us:</h3></center> 
+                    <br>
+                    <div class="col-md-4">
+                        <center>
+                        <img src="http://oi60.tinypic.com/w8lycl.jpg" class="img-circle" alt="the-brains">
+                        <br>
+                        <h4 class="footertext">Programmer</h4>
+                        <p class="footertext">You can thank all the crazy programming here to this guy.<br>
+                        </center>
+                    </div>
+                 <div class="col-md-4">
+                        <center>
+                        <img src="http://oi60.tinypic.com/2z7enpc.jpg" class="img-circle" alt="...">
+                        <br>
+                        <h4 class="footertext">Artist</h4>
+                        <p class="footertext">All the images here are hand drawn by this man.<br>
+                        </center>
+                  </div>
+                  <div class="col-md-4">
+                        <center>
+                        <img src="http://oi61.tinypic.com/307n6ux.jpg" class="img-circle" alt="...">
+                        <br>
+                        <h4 class="footertext">Designer</h4>
+                        <p class="footertext">This pretty site and the copy it holds are all thanks to this guy.<br>
+                        </center>
+                  </div>
+              </div>
+                <div class="row">
+                    <p><center><a href="stuff.html">Contact Stuff Here</a> <p class="footertext">Copyright 2017</p></center></p>
+                </div>
+    </div>
+</div>
+
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+    </body>
+</html>
