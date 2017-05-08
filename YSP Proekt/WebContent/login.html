@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html>
+    <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link rel="stylesheet" href="resources/css/styles.css">
+          <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png"/>
+         <meta charset="utf-8">
+          <script src="resources/script/jquery-3.2.1.min"></script>
+          <script src="resources/script/bootstrap.min.js"></script>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="background-color: #222">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+             <header>
+                  <div id="socialMedia">
+                        <ul class="list-inline">
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Find us on Facebook" ><img src="resources/images/fb_icon.png"  class="img-responsive" alt=""></a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Find us on Google+" ><img src="resources/images/gp_icon.png"  class="img-responsive" alt=""></a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us in Twitter" ><img src="resources/images/twitter_icon.png"  class="img-responsive" alt=""></a></li>
+                        </ul>
+                  </div>    
+                  <a href="home.html">   <img src="resources/images/logo_mobile.png" class="img-responsive" alt=""> </a>   
+            </header>
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div> 
+        </div>
+        </nav>
+        <!-- Page Content -->
+        <div class="container">
+                 <div>
+                <div id="legend">
+                        <legend style="color: gray;">Login</legend>
+                        </div>
+                        <div class="control-group">
+                <form action = "Login" id="loginForm" method = "POST" >
+                 <div class="form-group">
+                 
+                      <label for="usr">Username:</label>
+                      <input type="text" class="form-control" id="usr" name = "username" placeholder="Enter username">
+                 </div>
+                 <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd" name = "password" placeholder="Enter password">
+                 </div>
+                 <div class="checkbox">
+                      <label><input type="checkbox"> Remember me</label>
+                </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                </div>
+            
+            <p>Don't have an account ? <a href="register.html" >Sign up</a> for free right now ;) ! </p>
+           </div>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                 <div class="row">
+                    <center><h3>About Us:</h3></center> 
+                    <br>
+                    <div class="col-md-4">
+                        <center>
+                        <img src="http://oi60.tinypic.com/w8lycl.jpg" class="img-circle img-responsive" alt="the-brains">
+                        <br>
+                        <h4 class="footertext">Programmer</h4>
+                        <p class="footertext">You can thank all the crazy programming here to this guy.<br>
+                        </center>
+                    </div>
+                 <div class="col-md-4">
+                        <center>
+                        <img src="http://oi60.tinypic.com/2z7enpc.jpg" class="img-circle img-responsive" alt="...">
+                        <br>
+                        <h4 class="footertext">Artist</h4>
+                        <p class="footertext">All the images here are hand drawn by this man.<br>
+                        </center>
+                  </div>
+                  <div class="col-md-4">
+                        <center>
+                        <img src="http://oi61.tinypic.com/307n6ux.jpg" class="img-circle img-responsive" alt="...">
+                        <br>
+                        <h4 class="footertext">Designer</h4>
+                        <p class="footertext">This pretty site and the copy it holds are all thanks to this guy.<br>
+                        </center>
+                  </div>
+              </div>
+                <div class="row">
+                    <p><center><a href="stuff.html">Contact Stuff Here</a> <p class="footertext">Copyright 2017</p></center></p>
+                </div>
+    </div>
+</div>
+
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+    </body>
+</html>
