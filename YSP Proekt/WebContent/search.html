@@ -1,0 +1,164 @@
+<!DOCTYPE>
+<html>
+    <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link rel="stylesheet" href="resources/css/styles.css">
+         <link rel="stylesheet" href="resources/css/searchStyles.css">
+          <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png"/>
+         <meta charset="utf-8">
+          <<script src="resources/script/jquery-3.2.1.min"></script>
+          <script src="resources/script/bootstrap.min.js"></script>
+          <script src="resources/script/script.js"></script>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="background-color: #222" onload="loadDoc()">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+             <header>
+                  <div id="socialMedia">
+                        <ul class="list-inline">
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Find us on Facebook" ><img src="resources/images/fb_icon.png"  class="img-responsive" alt=""></a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Find us on Google+" ><img src="resources/images/gp_icon.png"  class="img-responsive" alt=""></a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us in Twitter" ><img src="resources/images/twitter_icon.png"  class="img-responsive" alt=""></a></li>
+                        </ul>
+                  </div>    
+                  <a href="home.html">   <img src="resources/images/logo_mobile.png" class="img-responsive" alt=""> </a>   
+            </header>
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div> 
+        </div>
+        </nav>
+
+        <!--Page content -->
+        <div class="container">
+            <div id="legend">
+                <legend class="" style="color: gray;">Search</legend>
+            </div>
+            <table id="movies"></table>
+        </div>
+
+        <!--Search form -->
+
+
+<div class="container" id="content-container">
+    <div class="search-background"  >
+        </div>
+            <div class="well-searchbox" >
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Keyword</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" placeholder="Keyword">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Brand</label>
+                        <div class="col-md-8">
+                            <select class="form-control" placeholder="Country">
+                                <option value="">All</option>
+                                <option value="Huawei">Huawei</option>
+                                <option value="ASUS">ASUS</option>
+                                <option value="Lenovo">Lenovo</option>
+                                <option value="LG">LG</option>
+                                <option value="HTC">HTC</option>
+                                <option value="Samsung">Samsung</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Model</label>
+                        <div class="col-md-8">
+                            <select class="form-control" placeholder="Province">
+                                <option value="">All</option>
+                                <option value="">Province 1</option>
+                                <option value="">Province 2</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Camera</label>
+                        <div class="col-md-8">
+                            <select class="form-control" placeholder="City">
+                                <option value="">All</option>
+                                <option value="">City 1</option>
+                                <option value="">City 2</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-offset-4 col-sm-5">
+                        <button type="submit" class="btn btn-success">Search</button>
+                    </div>
+                </form>
+            </div>
+            
+	</div>
+
+        <!-- /Search form -->
+        <div id="footer">
+            <div class="container">
+                 <div class="row">
+                    <center><h3>About Us:</h3></center> 
+                    <br>
+                    <div class="col-md-4">
+                        <center>
+                        <img src="http://oi60.tinypic.com/w8lycl.jpg" class="img-circle" alt="the-brains">
+                        <br>
+                        <h4 class="footertext">Programmer</h4>
+                        <p class="footertext">You can thank all the crazy programming here to this guy.<br>
+                        </center>
+                    </div>
+                 <div class="col-md-4">
+                        <center>
+                        <img src="http://oi60.tinypic.com/2z7enpc.jpg" class="img-circle" alt="...">
+                        <br>
+                        <h4 class="footertext">Artist</h4>
+                        <p class="footertext">All the images here are hand drawn by this man.<br>
+                        </center>
+                  </div>
+                  <div class="col-md-4">
+                        <center>
+                        <img src="http://oi61.tinypic.com/307n6ux.jpg" class="img-circle" alt="...">
+                        <br>
+                        <h4 class="footertext">Designer</h4>
+                        <p class="footertext">This pretty site and the copy it holds are all thanks to this guy.<br>
+                        </center>
+                  </div>
+              </div>
+                <div class="row">
+                    <p><center><a href="stuff.html">Contact Stuff Here</a> <p class="footertext">Copyright 2017</p></center></p>
+                </div>
+    </div>
+</div>
+
+
+
+
+
+
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+    </body>
+</html>
